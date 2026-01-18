@@ -1,0 +1,26 @@
+BasedOnStyle: LLVM
+
+# 1. 인덴트 및 탭 설정
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+
+# 2. 제어문 및 괄호 공백 제거 (사용자님 취향 반영)
+SpaceBeforeParens: Never      # if(cond)
+SpaceInEmptyBlock: false      # {}
+SpacesInContainerLiterals: false 
+
+# 3. 중괄호 스타일 및 한 줄 허용
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+
+# 4. 스위치 케이스 설정 (들여쓰기 및 한 줄 허용)
+IndentCaseLabels: true
+AllowShortCaseLabelsOnASingleLine: true
+
+# 5. 기타 설정
+ColumnLimit: 150
+Cpp11BracedListStyle: true    # 중괄호 내부 공백 최소화

@@ -1,0 +1,14 @@
+# MPLAB X Project Git Ignore
+build/
+dist/
+nbproject/private/
+nbproject/Makefile-local-default.mk
+nbproject/Package-*.bash
+*.o
+*.d
+*.elf
+*.hex
+*.map
+.generated_files/
+mcc-manifest-autosave.yml
+valid_config.yaml
